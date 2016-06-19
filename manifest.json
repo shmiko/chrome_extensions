@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "Omnibox Resize",
+	"description": "Will resize the omni box when the window changes",
+	"version": "1.0",
+	
+	"browser_action":{
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "ClickMe"
+	},
+	"persmissions":[
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	]
+}
